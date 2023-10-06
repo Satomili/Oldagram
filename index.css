@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/*typography*/
+
+p {
+    margin: 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+#likes {
+    margin: 13px 0;
+}
+
+#location {
+    font-size: 12px;
+}
+
+/*images*/
+
+.logo {
+    width: 127px;
+}
+
+.user-avatar-img,
+#avatar-img {
+    width: 34px;
+    height: 34px; 
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.post-img {
+    width: 100%;
+}
+
+/*header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+/*section avator-container*/
+
+section {
+    display: flex;
+    padding: 5px;
+}
+
+.avatar-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*icons*/
+
+.icon {
+    width: 23px;
+}
+
+.icons {
+    display: flex;
+    gap: 7px;
+}
+
+button {
+    border: none;
+    background: transparent;
+}
+
+button:hover,
+button:focus {
+    outline: none;
+}
+
+
+/*footer*/
+
+footer {
+    padding: 15px;
+}
+
+.gray-gap {
+    padding: 10px;
+    background-color: #EDEDED;
+}
